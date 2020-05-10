@@ -34,14 +34,14 @@ greeting = (param1, param2) => {
 console.log(consume(2,2,add)); // 4
 
 console.log(consume(10,16,multiply)); // 160
-console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+console.log(consume("Mary","Poppins,", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
 
-// Explain in your own words why `nestedfunction()` can access the variable `internal`.
+// Explain in your own words why `nestedFunction()` can access the variable `internal`.
 
-// Explanation: The internal variable can be accessed because it is inside myfunction() and not outside so it is locally availabe within that function.
+// Explanation: The internal variable can be accessed because it is inside myFunction() where the nestedFunction() is also being called from not outside so it is locally available within that function.
 
 
 const external = "I'm outside the function";
